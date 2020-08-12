@@ -1,5 +1,5 @@
 const mongoose = require('mongoose'); 
-mongoose.connect('mongodb+srv://Aldair:Aldair@cluster0.yyhrz.mongodb.net/<dbname>?retryWrites=true&w=majority',{
+mongoose.connect('',{ //La ruta sera ejecutada con la direccion que tengo en mongoDBAtlas 
     useNewUrlParser : true,
     useUnifiedTopology: true
 })
